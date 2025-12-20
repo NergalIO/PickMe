@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: d27dc479a8149e54dad9491f798a50e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4047717667790430971
+    second: ui_text_tank_ability_2_0
+  - first:
+      213: -2152661096598762448
+    second: ui_text_tank_ability_2_1
+  - first:
+      213: -715119953949717335
+    second: ui_text_tank_ability_2_2
+  - first:
+      213: 1129633328939841564
+    second: ui_text_tank_ability_2_3
+  - first:
+      213: 1443006649751187202
+    second: ui_text_tank_ability_2_4
+  - first:
+      213: 4071692625010421450
+    second: ui_text_tank_ability_2_5
+  - first:
+      213: -851722689398257300
+    second: ui_text_tank_ability_2_6
+  - first:
+      213: 1087211130040862797
+    second: ui_text_tank_ability_2_7
+  - first:
+      213: 3665436879640722326
+    second: ui_text_tank_ability_2_8
+  - first:
+      213: 4788500399514296981
+    second: ui_text_tank_ability_2_9
+  - first:
+      213: 2334659354109040698
+    second: ui_text_tank_ability_2_10
+  - first:
+      213: 8812629893286904140
+    second: ui_text_tank_ability_2_11
+  - first:
+      213: -4166676226521427697
+    second: ui_text_tank_ability_2_12
+  - first:
+      213: -3122187042863613480
+    second: ui_text_tank_ability_2_13
+  - first:
+      213: 4921860479531779663
+    second: ui_text_tank_ability_2_14
+  - first:
+      213: 6467304722092366221
+    second: ui_text_tank_ability_2_15
+  - first:
+      213: 4468809211313610868
+    second: ui_text_tank_ability_2_16
+  - first:
+      213: 8237023293960856245
+    second: ui_text_tank_ability_2_17
+  - first:
+      213: -6780680201158451517
+    second: ui_text_tank_ability_2_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 218
+        width: 198
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d57441a3e93d7c0800000000000000
+      internalID: -4047717667790430971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 163
+        width: 175
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c8d6f43263022e0800000000000000
+      internalID: -2152661096598762448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_2
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 217
+        width: 173
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac8805d0326316f0800000000000000
+      internalID: -715119953949717335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 216
+        width: 172
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18b6e117834daf00800000000000000
+      internalID: 1129633328939841564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 213
+        width: 188
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f22fe07e6960410800000000000000
+      internalID: 1443006649751187202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_5
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 212
+        width: 169
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acee254aede818830800000000000000
+      internalID: 4071692625010421450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_6
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 215
+        width: 171
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69c6430ab21e24f0800000000000000
+      internalID: -851722689398257300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_7
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 212
+        width: 169
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48cfe133cc861f00800000000000000
+      internalID: 1087211130040862797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_8
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 214
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bf995fb6f3ed230800000000000000
+      internalID: 3665436879640722326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_9
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 214
+        width: 173
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592add72ebb247240800000000000000
+      internalID: 4788500399514296981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_10
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 210
+        width: 169
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3856312050666020800000000000000
+      internalID: 2334659354109040698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_11
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 213
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41ca565230cc4a70800000000000000
+      internalID: 8812629893286904140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_12
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 212
+        width: 172
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0110284c0efc26c0800000000000000
+      internalID: -4166676226521427697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_13
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 212
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d979c33d63cba4d0800000000000000
+      internalID: -3122187042863613480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_14
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 211
+        width: 220
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46868c6706fd4440800000000000000
+      internalID: 4921860479531779663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_15
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 208
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d899586216b70c950800000000000000
+      internalID: 6467304722092366221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_16
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 210
+        width: 172
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47067590d46640e30800000000000000
+      internalID: 4468809211313610868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_17
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 210
+        width: 173
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2a7235b09cf4270800000000000000
+      internalID: 8237023293960856245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_tank_ability_2_18
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 210
+        width: 175
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce1d6a584f26e1a0800000000000000
+      internalID: -6780680201158451517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_tank_ability_2_0: -4047717667790430971
+      ui_text_tank_ability_2_1: -2152661096598762448
+      ui_text_tank_ability_2_10: 2334659354109040698
+      ui_text_tank_ability_2_11: 8812629893286904140
+      ui_text_tank_ability_2_12: -4166676226521427697
+      ui_text_tank_ability_2_13: -3122187042863613480
+      ui_text_tank_ability_2_14: 4921860479531779663
+      ui_text_tank_ability_2_15: 6467304722092366221
+      ui_text_tank_ability_2_16: 4468809211313610868
+      ui_text_tank_ability_2_17: 8237023293960856245
+      ui_text_tank_ability_2_18: -6780680201158451517
+      ui_text_tank_ability_2_2: -715119953949717335
+      ui_text_tank_ability_2_3: 1129633328939841564
+      ui_text_tank_ability_2_4: 1443006649751187202
+      ui_text_tank_ability_2_5: 4071692625010421450
+      ui_text_tank_ability_2_6: -851722689398257300
+      ui_text_tank_ability_2_7: 1087211130040862797
+      ui_text_tank_ability_2_8: 3665436879640722326
+      ui_text_tank_ability_2_9: 4788500399514296981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

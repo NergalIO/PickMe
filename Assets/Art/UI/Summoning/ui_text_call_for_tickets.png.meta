@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: b7b4d554e994a8c44a2d2cf76d3f09c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8759044246475255769
+    second: ui_text_call_for_tickets_0
+  - first:
+      213: -7171578499647234036
+    second: ui_text_call_for_tickets_1
+  - first:
+      213: -3432508259592030082
+    second: ui_text_call_for_tickets_2
+  - first:
+      213: -997527985290096537
+    second: ui_text_call_for_tickets_3
+  - first:
+      213: 1987388273021509693
+    second: ui_text_call_for_tickets_4
+  - first:
+      213: -7435954501992954204
+    second: ui_text_call_for_tickets_5
+  - first:
+      213: 5830900456697596322
+    second: ui_text_call_for_tickets_6
+  - first:
+      213: 196159336161422318
+    second: ui_text_call_for_tickets_7
+  - first:
+      213: 8254264812110760751
+    second: ui_text_call_for_tickets_8
+  - first:
+      213: 2892276767121579518
+    second: ui_text_call_for_tickets_9
+  - first:
+      213: 5101339351429984605
+    second: ui_text_call_for_tickets_10
+  - first:
+      213: 8387227851393440743
+    second: ui_text_call_for_tickets_11
+  - first:
+      213: 1844318319715713174
+    second: ui_text_call_for_tickets_12
+  - first:
+      213: -5527775347206938936
+    second: ui_text_call_for_tickets_13
+  - first:
+      213: -2994112108851423572
+    second: ui_text_call_for_tickets_14
+  - first:
+      213: -6293352139428932145
+    second: ui_text_call_for_tickets_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_0
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 78
+        width: 308
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720d9ec4aaf917680800000000000000
+      internalID: -8759044246475255769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_1
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00a2b9e95f697c90800000000000000
+      internalID: -7171578499647234036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e783c629ce74d50d0800000000000000
+      internalID: -3432508259592030082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_3
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 73
+        width: 304
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760d54f15911822f0800000000000000
+      internalID: -997527985290096537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_4
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30693cca1f949b10800000000000000
+      internalID: 1987388273021509693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_5
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 78
+        width: 122
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a64ebe17ce2ec890800000000000000
+      internalID: -7435954501992954204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_6
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 78
+        width: 303
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a98f1a62158be050800000000000000
+      internalID: 5830900456697596322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_7
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 73
+        width: 304
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb274f70e5e8b200800000000000000
+      internalID: 196159336161422318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_8
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 78
+        width: 351
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b4ed71d1a0d8270800000000000000
+      internalID: 8254264812110760751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_9
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 78
+        width: 280
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd9560556e632820800000000000000
+      internalID: 2892276767121579518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_10
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 78
+        width: 293
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51b4b0bc199bc640800000000000000
+      internalID: 5101339351429984605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_11
+      rect:
+        serializedVersion: 2
+        x: 4411
+        y: 73
+        width: 336
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb919c1b4b656470800000000000000
+      internalID: 8387227851393440743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_12
+      rect:
+        serializedVersion: 2
+        x: 4826
+        y: 78
+        width: 268
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690866b7db5589910800000000000000
+      internalID: 1844318319715713174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_13
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 78
+        width: 298
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce919feb956943b0800000000000000
+      internalID: -5527775347206938936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_14
+      rect:
+        serializedVersion: 2
+        x: 5513
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6173686e6c276d0800000000000000
+      internalID: -2994112108851423572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_call_for_tickets_15
+      rect:
+        serializedVersion: 2
+        x: 5821
+        y: 78
+        width: 122
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5d4e2a29589a8a0800000000000000
+      internalID: -6293352139428932145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_call_for_tickets_0: -8759044246475255769
+      ui_text_call_for_tickets_1: -7171578499647234036
+      ui_text_call_for_tickets_10: 5101339351429984605
+      ui_text_call_for_tickets_11: 8387227851393440743
+      ui_text_call_for_tickets_12: 1844318319715713174
+      ui_text_call_for_tickets_13: -5527775347206938936
+      ui_text_call_for_tickets_14: -2994112108851423572
+      ui_text_call_for_tickets_15: -6293352139428932145
+      ui_text_call_for_tickets_2: -3432508259592030082
+      ui_text_call_for_tickets_3: -997527985290096537
+      ui_text_call_for_tickets_4: 1987388273021509693
+      ui_text_call_for_tickets_5: -7435954501992954204
+      ui_text_call_for_tickets_6: 5830900456697596322
+      ui_text_call_for_tickets_7: 196159336161422318
+      ui_text_call_for_tickets_8: 8254264812110760751
+      ui_text_call_for_tickets_9: 2892276767121579518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

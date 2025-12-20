@@ -1,0 +1,25 @@
+{
+  "floors": [
+    {
+      "level": 1,
+      "enemies": [
+        { "enemyId": "goblin", "count": 3 }
+      ],
+      "rewards": [
+        { "resourceType": "Tickets", "amount": 1 },
+        { "resourceType": "Construction", "amount": 5 }
+      ]
+    },
+    {
+      "level": 2,
+      "enemies": [
+        { "enemyId": "goblin", "count": 4 }
+      ],
+      "rewards": [
+        { "resourceType": "Tickets", "amount": 1 },
+        { "resourceType": "Construction", "amount": 8 }
+      ]
+    }
+  ]
+}
+

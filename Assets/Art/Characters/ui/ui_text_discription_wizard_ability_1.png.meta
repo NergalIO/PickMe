@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 5091ce5220400b44fb3b7f587ed88ee8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 229403979605132196
+    second: ui_text_discription_wizard_ability_1_0
+  - first:
+      213: 6174907976405413019
+    second: ui_text_discription_wizard_ability_1_1
+  - first:
+      213: 1194633568585831900
+    second: ui_text_discription_wizard_ability_1_2
+  - first:
+      213: 5003831578834892384
+    second: ui_text_discription_wizard_ability_1_3
+  - first:
+      213: 1159526544292387880
+    second: ui_text_discription_wizard_ability_1_4
+  - first:
+      213: 5006332212483183328
+    second: ui_text_discription_wizard_ability_1_5
+  - first:
+      213: 3608855744311110364
+    second: ui_text_discription_wizard_ability_1_6
+  - first:
+      213: -5441307706738159173
+    second: ui_text_discription_wizard_ability_1_7
+  - first:
+      213: -5401805342864607930
+    second: ui_text_discription_wizard_ability_1_8
+  - first:
+      213: -8736187952055967775
+    second: ui_text_discription_wizard_ability_1_9
+  - first:
+      213: -6981627203343895153
+    second: ui_text_discription_wizard_ability_1_10
+  - first:
+      213: -857710786391973224
+    second: ui_text_discription_wizard_ability_1_11
+  - first:
+      213: -1000995031958276395
+    second: ui_text_discription_wizard_ability_1_12
+  - first:
+      213: -2861963721845226950
+    second: ui_text_discription_wizard_ability_1_13
+  - first:
+      213: -2397565873288310603
+    second: ui_text_discription_wizard_ability_1_14
+  - first:
+      213: -1027619249534861389
+    second: ui_text_discription_wizard_ability_1_15
+  - first:
+      213: -3188153166366546263
+    second: ui_text_discription_wizard_ability_1_16
+  - first:
+      213: 5570213872024534947
+    second: ui_text_discription_wizard_ability_1_17
+  - first:
+      213: -2341658724514253737
+    second: ui_text_discription_wizard_ability_1_18
+  - first:
+      213: -6679449791842447483
+    second: ui_text_discription_wizard_ability_1_19
+  - first:
+      213: -3713006442554333991
+    second: ui_text_discription_wizard_ability_1_20
+  - first:
+      213: 207335758023781424
+    second: ui_text_discription_wizard_ability_1_21
+  - first:
+      213: 5580394112001853514
+    second: ui_text_discription_wizard_ability_1_22
+  - first:
+      213: 8720461202549506560
+    second: ui_text_discription_wizard_ability_1_23
+  - first:
+      213: -789875691767538881
+    second: ui_text_discription_wizard_ability_1_24
+  - first:
+      213: 4610746177231172435
+    second: ui_text_discription_wizard_ability_1_25
+  - first:
+      213: 3274118874028934956
+    second: ui_text_discription_wizard_ability_1_26
+  - first:
+      213: 1044964596399794763
+    second: ui_text_discription_wizard_ability_1_27
+  - first:
+      213: 6499006579709057960
+    second: ui_text_discription_wizard_ability_1_28
+  - first:
+      213: 2869423528188762721
+    second: ui_text_discription_wizard_ability_1_29
+  - first:
+      213: -8246447108171026648
+    second: ui_text_discription_wizard_ability_1_30
+  - first:
+      213: 9008019392247902546
+    second: ui_text_discription_wizard_ability_1_31
+  - first:
+      213: 177580596999567550
+    second: ui_text_discription_wizard_ability_1_32
+  - first:
+      213: 293831517710277923
+    second: ui_text_discription_wizard_ability_1_33
+  - first:
+      213: 3685118964043758098
+    second: ui_text_discription_wizard_ability_1_34
+  - first:
+      213: 6208916071677159115
+    second: ui_text_discription_wizard_ability_1_35
+  - first:
+      213: -5253380638263973982
+    second: ui_text_discription_wizard_ability_1_36
+  - first:
+      213: 9132462408502402684
+    second: ui_text_discription_wizard_ability_1_37
+  - first:
+      213: -7627919765634166092
+    second: ui_text_discription_wizard_ability_1_38
+  - first:
+      213: -4392500717834167340
+    second: ui_text_discription_wizard_ability_1_39
+  - first:
+      213: -5870648705223978556
+    second: ui_text_discription_wizard_ability_1_40
+  - first:
+      213: 7905071338442352285
+    second: ui_text_discription_wizard_ability_1_41
+  - first:
+      213: -7436520491443864906
+    second: ui_text_discription_wizard_ability_1_42
+  - first:
+      213: -3275950420514698373
+    second: ui_text_discription_wizard_ability_1_43
+  - first:
+      213: 7338457111136246654
+    second: ui_text_discription_wizard_ability_1_44
+  - first:
+      213: -3823140245772871804
+    second: ui_text_discription_wizard_ability_1_45
+  - first:
+      213: -4946064292039882392
+    second: ui_text_discription_wizard_ability_1_46
+  - first:
+      213: 5460813739389901219
+    second: ui_text_discription_wizard_ability_1_47
+  - first:
+      213: 6159075098279205686
+    second: ui_text_discription_wizard_ability_1_48
+  - first:
+      213: -2683065499516238073
+    second: ui_text_discription_wizard_ability_1_49
+  - first:
+      213: -5184342318315070954
+    second: ui_text_discription_wizard_ability_1_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 365
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3cc6a34b10f2300800000000000000
+      internalID: 229403979605132196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 363
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cee56a61ea1b550800000000000000
+      internalID: 6174907976405413019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 365
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d054b6e0349010800000000000000
+      internalID: 1194633568585831900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 363
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066f55c3f4e217540800000000000000
+      internalID: 5003831578834892384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_4
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 363
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c1f24af37771010800000000000000
+      internalID: 1159526544292387880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_5
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 365
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2d7a06f901a7540800000000000000
+      internalID: 5006332212483183328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_6
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 363
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaaa4dcd2b351230800000000000000
+      internalID: 3608855744311110364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_7
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 365
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1d64258779c74b0800000000000000
+      internalID: -5441307706738159173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 365
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6457fb029aee805b0800000000000000
+      internalID: -5401805342864607930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_9
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 363
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef18aa0853d2c680800000000000000
+      internalID: -8736187952055967775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_10
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 365
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85bb7e7c074c1f90800000000000000
+      internalID: -6981627203343895153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_11
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 365
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892e519859cc814f0800000000000000
+      internalID: -857710786391973224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_12
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 336
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6323a6250cb12f0800000000000000
+      internalID: -1000995031958276395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_13
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 363
+        width: 123
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a324c5788234848d0800000000000000
+      internalID: -2861963721845226950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_14
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 363
+        width: 79
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b01d058a822abed0800000000000000
+      internalID: -2397565873288310603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_15
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 338
+        width: 117
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bffe13bcb92db1f0800000000000000
+      internalID: -1027619249534861389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_16
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 363
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a66f25369761c3d0800000000000000
+      internalID: -3188153166366546263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_17
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 338
+        width: 89
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afb9fc11006d4d40800000000000000
+      internalID: 5570213872024534947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_18
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 336
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7543224fbc1c08fd0800000000000000
+      internalID: -2341658724514253737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_19
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 349
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f8c26bdc3dd43a0800000000000000
+      internalID: -6679449791842447483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_20
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 365
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4efc61050c87cc0800000000000000
+      internalID: -3713006442554333991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_21
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 363
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c6e3ef5ca90e200800000000000000
+      internalID: 207335758023781424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_22
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 365
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a484d80f0ea817d40800000000000000
+      internalID: 5580394112001853514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_23
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 363
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0020a8fb24d450970800000000000000
+      internalID: 8720461202549506560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_24
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 363
+        width: 79
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bda774e3cc905f0800000000000000
+      internalID: -789875691767538881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_25
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 365
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353ba5b2839acff30800000000000000
+      internalID: 4610746177231172435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_26
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 346
+        width: 135
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2785e6d4c1007d20800000000000000
+      internalID: 3274118874028934956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_27
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 336
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ae44393c5708e00800000000000000
+      internalID: 1044964596399794763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_28
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 363
+        width: 124
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab1c701d0c113a50800000000000000
+      internalID: 6499006579709057960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_29
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 267
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ad6dbfe7d32d720800000000000000
+      internalID: 2869423528188762721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_30
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 174
+        width: 89
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f2b62fb0cbe8d80800000000000000
+      internalID: -8246447108171026648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_31
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 174
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25134c429e9e20d70800000000000000
+      internalID: 9008019392247902546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_32
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb83923bc94e67200800000000000000
+      internalID: 177580596999567550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_33
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 174
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d5fe46536e31400800000000000000
+      internalID: 293831517710277923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_34
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a32e65c2c242330800000000000000
+      internalID: 3685118964043758098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_35
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6e78c55408a2650800000000000000
+      internalID: 6208916071677159115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_36
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 175
+        width: 85
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a76c52a42e3817b0800000000000000
+      internalID: -5253380638263973982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_37
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 175
+        width: 31
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ed467bc260dbe70800000000000000
+      internalID: 9132462408502402684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_38
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2d13a336f242690800000000000000
+      internalID: -7627919765634166092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_39
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 147
+        width: 98
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db98dd9ed3ba03c0800000000000000
+      internalID: -4392500717834167340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_40
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 148
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1940c4b14478ea0800000000000000
+      internalID: -5870648705223978556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_41
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 174
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d966afbdf7474bd60800000000000000
+      internalID: 7905071338442352285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_42
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba339e630c2cc890800000000000000
+      internalID: -7436520491443864906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_43
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b0e63037c7982d0800000000000000
+      internalID: -3275950420514698373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_44
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 174
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b17bc9cdf67d560800000000000000
+      internalID: 7338457111136246654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_45
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 174
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487553cc33a71fac0800000000000000
+      internalID: -3823140245772871804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_46
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 174
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86908b45bbc0c5bb0800000000000000
+      internalID: -4946064292039882392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_47
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 174
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a958e0d925b8cb40800000000000000
+      internalID: 5460813739389901219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_48
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 174
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bd2e17b2e697550800000000000000
+      internalID: 6159075098279205686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_49
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 175
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7078a38c426d3cad0800000000000000
+      internalID: -2683065499516238073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_discription_wizard_ability_1_50
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 175
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a1eca11248d08b0800000000000000
+      internalID: -5184342318315070954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_discription_wizard_ability_1_0: 229403979605132196
+      ui_text_discription_wizard_ability_1_1: 6174907976405413019
+      ui_text_discription_wizard_ability_1_10: -6981627203343895153
+      ui_text_discription_wizard_ability_1_11: -857710786391973224
+      ui_text_discription_wizard_ability_1_12: -1000995031958276395
+      ui_text_discription_wizard_ability_1_13: -2861963721845226950
+      ui_text_discription_wizard_ability_1_14: -2397565873288310603
+      ui_text_discription_wizard_ability_1_15: -1027619249534861389
+      ui_text_discription_wizard_ability_1_16: -3188153166366546263
+      ui_text_discription_wizard_ability_1_17: 5570213872024534947
+      ui_text_discription_wizard_ability_1_18: -2341658724514253737
+      ui_text_discription_wizard_ability_1_19: -6679449791842447483
+      ui_text_discription_wizard_ability_1_2: 1194633568585831900
+      ui_text_discription_wizard_ability_1_20: -3713006442554333991
+      ui_text_discription_wizard_ability_1_21: 207335758023781424
+      ui_text_discription_wizard_ability_1_22: 5580394112001853514
+      ui_text_discription_wizard_ability_1_23: 8720461202549506560
+      ui_text_discription_wizard_ability_1_24: -789875691767538881
+      ui_text_discription_wizard_ability_1_25: 4610746177231172435
+      ui_text_discription_wizard_ability_1_26: 3274118874028934956
+      ui_text_discription_wizard_ability_1_27: 1044964596399794763
+      ui_text_discription_wizard_ability_1_28: 6499006579709057960
+      ui_text_discription_wizard_ability_1_29: 2869423528188762721
+      ui_text_discription_wizard_ability_1_3: 5003831578834892384
+      ui_text_discription_wizard_ability_1_30: -8246447108171026648
+      ui_text_discription_wizard_ability_1_31: 9008019392247902546
+      ui_text_discription_wizard_ability_1_32: 177580596999567550
+      ui_text_discription_wizard_ability_1_33: 293831517710277923
+      ui_text_discription_wizard_ability_1_34: 3685118964043758098
+      ui_text_discription_wizard_ability_1_35: 6208916071677159115
+      ui_text_discription_wizard_ability_1_36: -5253380638263973982
+      ui_text_discription_wizard_ability_1_37: 9132462408502402684
+      ui_text_discription_wizard_ability_1_38: -7627919765634166092
+      ui_text_discription_wizard_ability_1_39: -4392500717834167340
+      ui_text_discription_wizard_ability_1_4: 1159526544292387880
+      ui_text_discription_wizard_ability_1_40: -5870648705223978556
+      ui_text_discription_wizard_ability_1_41: 7905071338442352285
+      ui_text_discription_wizard_ability_1_42: -7436520491443864906
+      ui_text_discription_wizard_ability_1_43: -3275950420514698373
+      ui_text_discription_wizard_ability_1_44: 7338457111136246654
+      ui_text_discription_wizard_ability_1_45: -3823140245772871804
+      ui_text_discription_wizard_ability_1_46: -4946064292039882392
+      ui_text_discription_wizard_ability_1_47: 5460813739389901219
+      ui_text_discription_wizard_ability_1_48: 6159075098279205686
+      ui_text_discription_wizard_ability_1_49: -2683065499516238073
+      ui_text_discription_wizard_ability_1_5: 5006332212483183328
+      ui_text_discription_wizard_ability_1_50: -5184342318315070954
+      ui_text_discription_wizard_ability_1_6: 3608855744311110364
+      ui_text_discription_wizard_ability_1_7: -5441307706738159173
+      ui_text_discription_wizard_ability_1_8: -5401805342864607930
+      ui_text_discription_wizard_ability_1_9: -8736187952055967775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

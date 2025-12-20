@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 09cefa853bed9e54daf2baff5225650b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3193211441015976402
+    second: ui_text_floor_3_day_forest_0
+  - first:
+      213: -8125010851119035507
+    second: ui_text_floor_3_day_forest_1
+  - first:
+      213: -2450917378345647365
+    second: ui_text_floor_3_day_forest_2
+  - first:
+      213: -8379946724006411195
+    second: ui_text_floor_3_day_forest_3
+  - first:
+      213: 5848730340403948627
+    second: ui_text_floor_3_day_forest_4
+  - first:
+      213: 7897923976705406714
+    second: ui_text_floor_3_day_forest_5
+  - first:
+      213: 9201520965235910493
+    second: ui_text_floor_3_day_forest_6
+  - first:
+      213: -4082246735647661150
+    second: ui_text_floor_3_day_forest_7
+  - first:
+      213: 3787150289195412310
+    second: ui_text_floor_3_day_forest_8
+  - first:
+      213: 6705868573093333598
+    second: ui_text_floor_3_day_forest_9
+  - first:
+      213: -3186062468126388760
+    second: ui_text_floor_3_day_forest_10
+  - first:
+      213: 400100737811504235
+    second: ui_text_floor_3_day_forest_11
+  - first:
+      213: 8934779198397497098
+    second: ui_text_floor_3_day_forest_12
+  - first:
+      213: -5133451908845207010
+    second: ui_text_floor_3_day_forest_13
+  - first:
+      213: -5687200695466032704
+    second: ui_text_floor_3_day_forest_14
+  - first:
+      213: -5369595549194345470
+    second: ui_text_floor_3_day_forest_15
+  - first:
+      213: 4142241298048382234
+    second: ui_text_floor_3_day_forest_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_0
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 111
+        width: 244
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1787223e0905c20800000000000000
+      internalID: 3193211441015976402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_1
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 111
+        width: 244
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b0bd6dda92e3f80800000000000000
+      internalID: -8125010851119035507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_2
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 59
+        width: 326
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf240e141a79cfdd0800000000000000
+      internalID: -2450917378345647365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_3
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 366
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54446e67ad274bb80800000000000000
+      internalID: -8379946724006411195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 115
+        width: 220
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ca3d6b14dda2150800000000000000
+      internalID: 5848730340403948627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_5
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 111
+        width: 231
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6f09603001b9d60800000000000000
+      internalID: 7897923976705406714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_6
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 115
+        width: 380
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57223ee09e52bf70800000000000000
+      internalID: 9201520965235910493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_7
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 236
+        width: 179
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3293cf832f857c0800000000000000
+      internalID: -4082246735647661150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_8
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 115
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ba2827f19ae8430800000000000000
+      internalID: 3787150289195412310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_9
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a0fa120f7001d50800000000000000
+      internalID: 6705868573093333598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_10
+      rect:
+        serializedVersion: 2
+        x: 3637
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed4f13d015d8c3d0800000000000000
+      internalID: -3186062468126388760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_11
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 115
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c50af40817d8500800000000000000
+      internalID: 400100737811504235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_12
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 111
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f380ba756befb70800000000000000
+      internalID: 8934779198397497098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_13
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e120bb5efa052c8b0800000000000000
+      internalID: -5133451908845207010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_14
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 111
+        width: 253
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1846c79110311b0800000000000000
+      internalID: -5687200695466032704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_15
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a0ce1c4d5b75b0800000000000000
+      internalID: -5369595549194345470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_3_day_forest_16
+      rect:
+        serializedVersion: 2
+        x: 5433
+        y: 111
+        width: 210
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15702893823c7930800000000000000
+      internalID: 4142241298048382234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_floor_3_day_forest_0: 3193211441015976402
+      ui_text_floor_3_day_forest_1: -8125010851119035507
+      ui_text_floor_3_day_forest_10: -3186062468126388760
+      ui_text_floor_3_day_forest_11: 400100737811504235
+      ui_text_floor_3_day_forest_12: 8934779198397497098
+      ui_text_floor_3_day_forest_13: -5133451908845207010
+      ui_text_floor_3_day_forest_14: -5687200695466032704
+      ui_text_floor_3_day_forest_15: -5369595549194345470
+      ui_text_floor_3_day_forest_16: 4142241298048382234
+      ui_text_floor_3_day_forest_2: -2450917378345647365
+      ui_text_floor_3_day_forest_3: -8379946724006411195
+      ui_text_floor_3_day_forest_4: 5848730340403948627
+      ui_text_floor_3_day_forest_5: 7897923976705406714
+      ui_text_floor_3_day_forest_6: 9201520965235910493
+      ui_text_floor_3_day_forest_7: -4082246735647661150
+      ui_text_floor_3_day_forest_8: 3787150289195412310
+      ui_text_floor_3_day_forest_9: 6705868573093333598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

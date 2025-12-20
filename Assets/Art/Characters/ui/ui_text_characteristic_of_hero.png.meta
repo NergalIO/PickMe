@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: d25c19fbc4e60f34391b012aeac83a6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5936195332809152428
+    second: ui_text_characteristic_of_hero_0
+  - first:
+      213: -7677112355100603099
+    second: ui_text_characteristic_of_hero_1
+  - first:
+      213: 615217442070929154
+    second: ui_text_characteristic_of_hero_2
+  - first:
+      213: -2565588622929784227
+    second: ui_text_characteristic_of_hero_3
+  - first:
+      213: 2437597887303186173
+    second: ui_text_characteristic_of_hero_4
+  - first:
+      213: -1774452930055956547
+    second: ui_text_characteristic_of_hero_5
+  - first:
+      213: -8512863210084717237
+    second: ui_text_characteristic_of_hero_6
+  - first:
+      213: 4668986786664093480
+    second: ui_text_characteristic_of_hero_7
+  - first:
+      213: -8088073389793701232
+    second: ui_text_characteristic_of_hero_8
+  - first:
+      213: 4596372124113026149
+    second: ui_text_characteristic_of_hero_9
+  - first:
+      213: 8038522448390304363
+    second: ui_text_characteristic_of_hero_10
+  - first:
+      213: 8203298378991859009
+    second: ui_text_characteristic_of_hero_11
+  - first:
+      213: 6832878278350859243
+    second: ui_text_characteristic_of_hero_12
+  - first:
+      213: -8930167246761011232
+    second: ui_text_characteristic_of_hero_13
+  - first:
+      213: -9181385271545832397
+    second: ui_text_characteristic_of_hero_14
+  - first:
+      213: -1500843819810999747
+    second: ui_text_characteristic_of_hero_15
+  - first:
+      213: -684353237623068921
+    second: ui_text_characteristic_of_hero_16
+  - first:
+      213: -3581380258597605151
+    second: ui_text_characteristic_of_hero_17
+  - first:
+      213: 8556079855060517491
+    second: ui_text_characteristic_of_hero_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 39
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7db61343a916250800000000000000
+      internalID: 5936195332809152428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 39
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d4775fcfa657590800000000000000
+      internalID: -7677112355100603099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 39
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f13460101b98800800000000000000
+      internalID: 615217442070929154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 40
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d529c729db2356cd0800000000000000
+      internalID: -2565588622929784227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_4
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 40
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6f2f11d5614d120800000000000000
+      internalID: 2437597887303186173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 40
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db71d592670ef57e0800000000000000
+      internalID: -1774452930055956547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_6
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 40
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4da865730c3cd980800000000000000
+      internalID: -8512863210084717237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_7
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 41
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8271b10ceb29bc040800000000000000
+      internalID: 4668986786664093480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 41
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0929e0cba1461cf80800000000000000
+      internalID: -8088073389793701232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 40
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cb341281899cf30800000000000000
+      internalID: 4596372124113026149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_10
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 41
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62be4fa3919e8f60800000000000000
+      internalID: 8038522448390304363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_11
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 41
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145f85aa968f7d170800000000000000
+      internalID: 8203298378991859009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_12
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 42
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebe59e879243de50800000000000000
+      internalID: 6832878278350859243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_13
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 42
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e75bfff33ca11480800000000000000
+      internalID: -8930167246761011232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_14
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 42
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cd1879dba259080800000000000000
+      internalID: -9181385271545832397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_15
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 42
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3233d86f7eeb2be0800000000000000
+      internalID: -1500843819810999747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_16
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 43
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707a6923b50b086f0800000000000000
+      internalID: -684353237623068921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_17
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 42
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e071b831a16c4ec0800000000000000
+      internalID: -3581380258597605151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_characteristic_of_hero_18
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 43
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37202cecb4d4db670800000000000000
+      internalID: 8556079855060517491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_characteristic_of_hero_0: 5936195332809152428
+      ui_text_characteristic_of_hero_1: -7677112355100603099
+      ui_text_characteristic_of_hero_10: 8038522448390304363
+      ui_text_characteristic_of_hero_11: 8203298378991859009
+      ui_text_characteristic_of_hero_12: 6832878278350859243
+      ui_text_characteristic_of_hero_13: -8930167246761011232
+      ui_text_characteristic_of_hero_14: -9181385271545832397
+      ui_text_characteristic_of_hero_15: -1500843819810999747
+      ui_text_characteristic_of_hero_16: -684353237623068921
+      ui_text_characteristic_of_hero_17: -3581380258597605151
+      ui_text_characteristic_of_hero_18: 8556079855060517491
+      ui_text_characteristic_of_hero_2: 615217442070929154
+      ui_text_characteristic_of_hero_3: -2565588622929784227
+      ui_text_characteristic_of_hero_4: 2437597887303186173
+      ui_text_characteristic_of_hero_5: -1774452930055956547
+      ui_text_characteristic_of_hero_6: -8512863210084717237
+      ui_text_characteristic_of_hero_7: 4668986786664093480
+      ui_text_characteristic_of_hero_8: -8088073389793701232
+      ui_text_characteristic_of_hero_9: 4596372124113026149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

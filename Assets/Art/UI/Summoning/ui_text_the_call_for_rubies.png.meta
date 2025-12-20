@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: ad4d9e4a7ceffd0478b79b04f0594d9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7172443434477549466
+    second: ui_text_the_call_for_rubies_0
+  - first:
+      213: 8593826943736505816
+    second: ui_text_the_call_for_rubies_1
+  - first:
+      213: 2897480775930392566
+    second: ui_text_the_call_for_rubies_2
+  - first:
+      213: 5248314500845224997
+    second: ui_text_the_call_for_rubies_3
+  - first:
+      213: 1177950989344331097
+    second: ui_text_the_call_for_rubies_4
+  - first:
+      213: 4712565333656924246
+    second: ui_text_the_call_for_rubies_5
+  - first:
+      213: -2641212747700584920
+    second: ui_text_the_call_for_rubies_6
+  - first:
+      213: 2527985848810024389
+    second: ui_text_the_call_for_rubies_7
+  - first:
+      213: -3251463739245773534
+    second: ui_text_the_call_for_rubies_8
+  - first:
+      213: 604140439529891427
+    second: ui_text_the_call_for_rubies_9
+  - first:
+      213: -1549050234133994606
+    second: ui_text_the_call_for_rubies_10
+  - first:
+      213: 6627005762922027070
+    second: ui_text_the_call_for_rubies_11
+  - first:
+      213: 3446420790965636444
+    second: ui_text_the_call_for_rubies_12
+  - first:
+      213: -1909045426198915009
+    second: ui_text_the_call_for_rubies_13
+  - first:
+      213: 4008887681402097106
+    second: ui_text_the_call_for_rubies_14
+  - first:
+      213: 2009739449522660018
+    second: ui_text_the_call_for_rubies_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_0
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 78
+        width: 309
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97fd9b6d43a98360800000000000000
+      internalID: 7172443434477549466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_1
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d56892c218634770800000000000000
+      internalID: 8593826943736505816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_2
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffaad80a6be53820800000000000000
+      internalID: 2897480775930392566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_3
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 73
+        width: 304
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52449645b32c5d840800000000000000
+      internalID: 5248314500845224997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_4
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95550ba0f2ce85010800000000000000
+      internalID: 1177950989344331097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_5
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 78
+        width: 122
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f075e335666140800000000000000
+      internalID: 4712565333656924246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_6
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 78
+        width: 303
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eb21deff6885bd0800000000000000
+      internalID: -2641212747700584920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_7
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 73
+        width: 304
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd29835cb5351320800000000000000
+      internalID: 2527985848810024389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_8
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 78
+        width: 351
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d3136c4fa70e2d0800000000000000
+      internalID: -3251463739245773534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_9
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366a0a46786526800800000000000000
+      internalID: 604140439529891427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_10
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 78
+        width: 324
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293253fe40ba08ae0800000000000000
+      internalID: -1549050234133994606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_11
+      rect:
+        serializedVersion: 2
+        x: 4418
+        y: 78
+        width: 280
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e381f6741aad7fb50800000000000000
+      internalID: 6627005762922027070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_12
+      rect:
+        serializedVersion: 2
+        x: 4761
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d0700137524df20800000000000000
+      internalID: 3446420790965636444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_13
+      rect:
+        serializedVersion: 2
+        x: 5133
+        y: 78
+        width: 309
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f385457ac45b185e0800000000000000
+      internalID: -1909045426198915009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_14
+      rect:
+        serializedVersion: 2
+        x: 5521
+        y: 78
+        width: 294
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd49623b1e62a730800000000000000
+      internalID: 4008887681402097106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_the_call_for_rubies_15
+      rect:
+        serializedVersion: 2
+        x: 5829
+        y: 78
+        width: 122
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b223eb916704eb10800000000000000
+      internalID: 2009739449522660018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_the_call_for_rubies_0: 7172443434477549466
+      ui_text_the_call_for_rubies_1: 8593826943736505816
+      ui_text_the_call_for_rubies_10: -1549050234133994606
+      ui_text_the_call_for_rubies_11: 6627005762922027070
+      ui_text_the_call_for_rubies_12: 3446420790965636444
+      ui_text_the_call_for_rubies_13: -1909045426198915009
+      ui_text_the_call_for_rubies_14: 4008887681402097106
+      ui_text_the_call_for_rubies_15: 2009739449522660018
+      ui_text_the_call_for_rubies_2: 2897480775930392566
+      ui_text_the_call_for_rubies_3: 5248314500845224997
+      ui_text_the_call_for_rubies_4: 1177950989344331097
+      ui_text_the_call_for_rubies_5: 4712565333656924246
+      ui_text_the_call_for_rubies_6: -2641212747700584920
+      ui_text_the_call_for_rubies_7: 2527985848810024389
+      ui_text_the_call_for_rubies_8: -3251463739245773534
+      ui_text_the_call_for_rubies_9: 604140439529891427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

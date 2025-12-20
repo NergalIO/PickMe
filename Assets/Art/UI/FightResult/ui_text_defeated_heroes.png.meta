@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: af6ee4e786ad1b2459fd87ea1c999056
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6460342433533482130
+    second: ui_text_defeated_heroes_0
+  - first:
+      213: -6941627513746905759
+    second: ui_text_defeated_heroes_1
+  - first:
+      213: 2598120387213957407
+    second: ui_text_defeated_heroes_2
+  - first:
+      213: -5632331118879134305
+    second: ui_text_defeated_heroes_3
+  - first:
+      213: 3837752343203654632
+    second: ui_text_defeated_heroes_4
+  - first:
+      213: 4626374806530399658
+    second: ui_text_defeated_heroes_5
+  - first:
+      213: 3597657683926014627
+    second: ui_text_defeated_heroes_6
+  - first:
+      213: -6214957999583411532
+    second: ui_text_defeated_heroes_7
+  - first:
+      213: -6839129899798992637
+    second: ui_text_defeated_heroes_8
+  - first:
+      213: -2389540408809883124
+    second: ui_text_defeated_heroes_9
+  - first:
+      213: 897571276732021991
+    second: ui_text_defeated_heroes_10
+  - first:
+      213: 6520365735526572831
+    second: ui_text_defeated_heroes_11
+  - first:
+      213: 1270623960114240880
+    second: ui_text_defeated_heroes_12
+  - first:
+      213: -3402565020543328132
+    second: ui_text_defeated_heroes_13
+  - first:
+      213: -3863426970946014624
+    second: ui_text_defeated_heroes_14
+  - first:
+      213: 2206160988119595670
+    second: ui_text_defeated_heroes_15
+  - first:
+      213: 3115552844138606872
+    second: ui_text_defeated_heroes_16
+  - first:
+      213: -5498648896169143843
+    second: ui_text_defeated_heroes_17
+  - first:
+      213: 9087376799235156446
+    second: ui_text_defeated_heroes_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_0
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 115
+        width: 266
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6baad9f8c04856a0800000000000000
+      internalID: -6460342433533482130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_1
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 111
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165a908fd826aaf90800000000000000
+      internalID: -6941627513746905759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_2
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19969b0ab06e0420800000000000000
+      internalID: 2598120387213957407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_3
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9da4d150b0f5d1b0800000000000000
+      internalID: -5632331118879134305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_4
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 42
+        width: 236
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eba3904c6f624530800000000000000
+      internalID: 3837752343203654632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_5
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 115
+        width: 379
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad9f0dff5f243040800000000000000
+      internalID: 4626374806530399658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_6
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa5dd13a927de130800000000000000
+      internalID: 3597657683926014627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_7
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2cbdca0a800c9a0800000000000000
+      internalID: -6214957999583411532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_8
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3096ab567978611a0800000000000000
+      internalID: -6839129899798992637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_9
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 115
+        width: 227
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0af17498a5a6ded0800000000000000
+      internalID: -2389540408809883124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_10
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 115
+        width: 79
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecb4361250d47c00800000000000000
+      internalID: 897571276732021991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_11
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13a0bf071efc7a50800000000000000
+      internalID: 6520365735526572831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_12
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 115
+        width: 188
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d95b972c922a110800000000000000
+      internalID: 1270623960114240880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_13
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7068513429a7c0d0800000000000000
+      internalID: -3402565020543328132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_14
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 42
+        width: 236
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0627915a3a9526ac0800000000000000
+      internalID: -3863426970946014624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_15
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 111
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a713edabbdd9e10800000000000000
+      internalID: 2206160988119595670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_16
+      rect:
+        serializedVersion: 2
+        x: 5225
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811f6d90ecaac3b20800000000000000
+      internalID: 3115552844138606872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_17
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 279
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd19e3746ffd0b3b0800000000000000
+      internalID: -5498648896169143843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_defeated_heroes_18
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 115
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9a98a4d09dc1e70800000000000000
+      internalID: 9087376799235156446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_defeated_heroes_0: -6460342433533482130
+      ui_text_defeated_heroes_1: -6941627513746905759
+      ui_text_defeated_heroes_10: 897571276732021991
+      ui_text_defeated_heroes_11: 6520365735526572831
+      ui_text_defeated_heroes_12: 1270623960114240880
+      ui_text_defeated_heroes_13: -3402565020543328132
+      ui_text_defeated_heroes_14: -3863426970946014624
+      ui_text_defeated_heroes_15: 2206160988119595670
+      ui_text_defeated_heroes_16: 3115552844138606872
+      ui_text_defeated_heroes_17: -5498648896169143843
+      ui_text_defeated_heroes_18: 9087376799235156446
+      ui_text_defeated_heroes_2: 2598120387213957407
+      ui_text_defeated_heroes_3: -5632331118879134305
+      ui_text_defeated_heroes_4: 3837752343203654632
+      ui_text_defeated_heroes_5: 4626374806530399658
+      ui_text_defeated_heroes_6: 3597657683926014627
+      ui_text_defeated_heroes_7: -6214957999583411532
+      ui_text_defeated_heroes_8: -6839129899798992637
+      ui_text_defeated_heroes_9: -2389540408809883124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

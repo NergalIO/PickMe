@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: ca8f0cf32dc09d94696cdbb6658eef35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2402722353995139037
+    second: ui_text_floor_2_forest_near_the_river_0
+  - first:
+      213: -5503004449557468698
+    second: ui_text_floor_2_forest_near_the_river_1
+  - first:
+      213: -3104077548004955925
+    second: ui_text_floor_2_forest_near_the_river_2
+  - first:
+      213: -5080599735165492942
+    second: ui_text_floor_2_forest_near_the_river_3
+  - first:
+      213: -368942917470782352
+    second: ui_text_floor_2_forest_near_the_river_4
+  - first:
+      213: -3033718771608554008
+    second: ui_text_floor_2_forest_near_the_river_5
+  - first:
+      213: -8200796971303052050
+    second: ui_text_floor_2_forest_near_the_river_6
+  - first:
+      213: 1177575904069449982
+    second: ui_text_floor_2_forest_near_the_river_7
+  - first:
+      213: -4187342745900602473
+    second: ui_text_floor_2_forest_near_the_river_8
+  - first:
+      213: -4277230557336631722
+    second: ui_text_floor_2_forest_near_the_river_9
+  - first:
+      213: -2679807711434077757
+    second: ui_text_floor_2_forest_near_the_river_10
+  - first:
+      213: -5424800515707754304
+    second: ui_text_floor_2_forest_near_the_river_11
+  - first:
+      213: -7205504243920972141
+    second: ui_text_floor_2_forest_near_the_river_12
+  - first:
+      213: -4957228716597153783
+    second: ui_text_floor_2_forest_near_the_river_13
+  - first:
+      213: 5418696509521801623
+    second: ui_text_floor_2_forest_near_the_river_14
+  - first:
+      213: -4503555814838114454
+    second: ui_text_floor_2_forest_near_the_river_15
+  - first:
+      213: 6429962644494002553
+    second: ui_text_floor_2_forest_near_the_river_16
+  - first:
+      213: -2399378066098725024
+    second: ui_text_floor_2_forest_near_the_river_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_0
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 111
+        width: 244
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd745c3304f285120800000000000000
+      internalID: 2402722353995139037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 115
+        width: 220
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9abbafb9661a3b0800000000000000
+      internalID: -5503004449557468698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_2
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 111
+        width: 231
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be826eb8ae91ce4d0800000000000000
+      internalID: -3104077548004955925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_3
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 115
+        width: 380
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231648385751e79b0800000000000000
+      internalID: -5080599735165492942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_4
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 115
+        width: 236
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf1cd0f5041eaf0800000000000000
+      internalID: -368942917470782352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_5
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 236
+        width: 180
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e576ddb9d016e5d0800000000000000
+      internalID: -3033718771608554008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_6
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 111
+        width: 293
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecd162ba9ae03e80800000000000000
+      internalID: -8200796971303052050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_7
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef87e12bb07975010800000000000000
+      internalID: 1177575904069449982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_8
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 111
+        width: 210
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b29c545f193e5c0800000000000000
+      internalID: -4187342745900602473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_9
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6560187487934a4c0800000000000000
+      internalID: -4277230557336631722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_10
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 111
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c98e9da5196fcad0800000000000000
+      internalID: -2679807711434077757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_11
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 111
+        width: 223
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c822eb3cac37b4b0800000000000000
+      internalID: -5424800515707754304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_12
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 111
+        width: 253
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39655890118e00c90800000000000000
+      internalID: -7205504243920972141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_13
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9007cdc2fb2643bb0800000000000000
+      internalID: -4957228716597153783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_14
+      rect:
+        serializedVersion: 2
+        x: 4894
+        y: 42
+        width: 236
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79132b314c3133b40800000000000000
+      internalID: 5418696509521801623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_15
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67ed66e8d72081c0800000000000000
+      internalID: -4503555814838114454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_16
+      rect:
+        serializedVersion: 2
+        x: 5443
+        y: 115
+        width: 240
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979a81035f0db3950800000000000000
+      internalID: 6429962644494002553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_2_forest_near_the_river_17
+      rect:
+        serializedVersion: 2
+        x: 5710
+        y: 115
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f52508c52b3bed0800000000000000
+      internalID: -2399378066098725024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_floor_2_forest_near_the_river_0: 2402722353995139037
+      ui_text_floor_2_forest_near_the_river_1: -5503004449557468698
+      ui_text_floor_2_forest_near_the_river_10: -2679807711434077757
+      ui_text_floor_2_forest_near_the_river_11: -5424800515707754304
+      ui_text_floor_2_forest_near_the_river_12: -7205504243920972141
+      ui_text_floor_2_forest_near_the_river_13: -4957228716597153783
+      ui_text_floor_2_forest_near_the_river_14: 5418696509521801623
+      ui_text_floor_2_forest_near_the_river_15: -4503555814838114454
+      ui_text_floor_2_forest_near_the_river_16: 6429962644494002553
+      ui_text_floor_2_forest_near_the_river_17: -2399378066098725024
+      ui_text_floor_2_forest_near_the_river_2: -3104077548004955925
+      ui_text_floor_2_forest_near_the_river_3: -5080599735165492942
+      ui_text_floor_2_forest_near_the_river_4: -368942917470782352
+      ui_text_floor_2_forest_near_the_river_5: -3033718771608554008
+      ui_text_floor_2_forest_near_the_river_6: -8200796971303052050
+      ui_text_floor_2_forest_near_the_river_7: 1177575904069449982
+      ui_text_floor_2_forest_near_the_river_8: -4187342745900602473
+      ui_text_floor_2_forest_near_the_river_9: -4277230557336631722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
