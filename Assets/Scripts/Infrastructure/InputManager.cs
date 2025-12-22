@@ -24,6 +24,55 @@ namespace PickMe.Infrastructure
         public void EnableUI() => _input?.UI.Enable();
         public void DisableUI() => _input?.UI.Disable();
 
+        /// <summary>
+        /// Gets current mouse position in screen coordinates.
+        /// </summary>
+        public Vector2 GetMousePosition()
+        {
+            var mouse = UnityEngine.InputSystem.Mouse.current;
+            return mouse != null ? mouse.position.ReadValue() : Vector2.zero;
+        }
+
+        /// <summary>
+        /// Checks if left mouse button is pressed.
+        /// </summary>
+        public bool IsMouseButtonPressed(int buttonIndex)
+        {
+            var mouse = UnityEngine.InputSystem.Mouse.current;
+            if (mouse == null) return false;
+            
+            return buttonIndex switch
+            {
+                0 => mouse.leftButton.isPressed,
+                1 => mouse.rightButton.isPressed,
+                2 => mouse.middleButton.isPressed,
+                _ => false
+            };
+        }
+
+        /// <summary>
+        /// Gets touch input if available. Returns true if touch is active.
+        /// </summary>
+        public bool GetTouchInput(out Vector2 position, out bool isPressed)
+        {
+            var touchscreen = UnityEngine.InputSystem.Touchscreen.current;
+            if (touchscreen != null)
+            {
+                var touch = touchscreen.primaryTouch;
+                isPressed = touch.press.isPressed;
+                
+                if (isPressed || touch.phase.ReadValue() != UnityEngine.InputSystem.TouchPhase.None)
+                {
+                    position = touch.position.ReadValue();
+                    return true;
+                }
+            }
+            
+            position = Vector2.zero;
+            isPressed = false;
+            return false;
+        }
+
         #region UI Callbacks
         public void OnNavigate(UnityEngine.InputSystem.InputAction.CallbackContext context)
         {
@@ -73,9 +122,10 @@ namespace PickMe.Infrastructure
         public void OnTrackedDevicePosition(UnityEngine.InputSystem.InputAction.CallbackContext context) { }
         #endregion
 
-        private void OnDestroy()
+        protected override void OnDestroy()
         {
             _input?.Dispose();
+            base.OnDestroy();
         }
     }
 }

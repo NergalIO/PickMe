@@ -1,5 +1,6 @@
 using System.Collections;
 using PickMe.Gameplay;
+using UnityEngine;
 
 namespace PickMe.Infrastructure
 {
@@ -13,7 +14,39 @@ namespace PickMe.Infrastructure
         protected override IEnumerator OnInitialized()
         {
             yield return EventController.WaitUntilInitialized();
+            
+            // Wait for SaveSystem to initialize
+            if (!SaveSystem.IsInitialized)
+            {
+                yield return SaveSystem.WaitUntilInitialized();
+            }
+            
+            // Wait for all managers needed for loading save
+            yield return ResourceManager.WaitUntilInitialized();
+            yield return CharacterManager.WaitUntilInitialized();
+            yield return TowerManager.WaitUntilInitialized();
+            yield return CityManager.WaitUntilInitialized();
+            
+            // Load save data if available
+            LoadGameProgress();
+            
             PublishState();
+        }
+
+        private void LoadGameProgress()
+        {
+            if (SaveSystem.IsInitialized)
+            {
+                bool loaded = SaveSystem.Instance.LoadGame();
+                if (loaded)
+                {
+                    Debug.Log("GameManager: Game progress loaded successfully");
+                }
+                else
+                {
+                    Debug.Log("GameManager: Starting new game (no save file found)");
+                }
+            }
         }
 
         public void EnterCity()

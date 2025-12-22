@@ -20,7 +20,7 @@ namespace PickMe.UI
         [Header("Buttons")]
         [SerializeField] private Button continueButton;
         
-        private readonly List<CharacterCardUI> _cards = new();
+        private readonly List<CharacterViewUI> _cards = new();
         private List<CharacterData> _summonedCharacters;
 
         public override void Awake()
@@ -37,6 +37,7 @@ namespace PickMe.UI
 
         public void SetSummonedCharacters(List<CharacterData> characters)
         {
+            Debug.Log($"SummonResultMenu: SetSummonedCharacters called with {characters?.Count ?? 0} characters");
             _summonedCharacters = characters;
             RefreshDisplay();
         }
@@ -65,37 +66,47 @@ namespace PickMe.UI
 
         private void CreateCharacterCard(CharacterData character)
         {
-            if (characterCardPrefab == null || characterListContainer == null) return;
+            if (characterCardPrefab == null || characterListContainer == null)
+            {
+                Debug.LogWarning("SummonResultMenu: characterCardPrefab or characterListContainer is null");
+                return;
+            }
+            
+            if (character == null)
+            {
+                Debug.LogWarning("SummonResultMenu: character is null");
+                return;
+            }
+            
+            Debug.Log($"SummonResultMenu: Creating card for character {character.ch_name} (Class: {character.class_tag}, HP: {character.base_hp}, ATK: {character.base_atk})");
             
             var cardObj = Instantiate(characterCardPrefab, characterListContainer);
-            var card = cardObj.GetComponent<CharacterCardUI>();
+            
+            // Ensure the object is active so components can initialize
+            cardObj.SetActive(true);
+            
+            // Wait one frame to ensure all components are initialized (especially if CharacterCardUI is a Menu)
+            StartCoroutine(SetupCardAfterFrame(cardObj, character));
+        }
+        
+        private IEnumerator SetupCardAfterFrame(GameObject cardObj, CharacterData character)
+        {
+            yield return null; // Wait one frame for initialization
+            
+            var card = cardObj.GetComponent<CharacterViewUI>();
             if (card != null)
             {
-                card.Setup(character, OnCharacterSelected);
+                Debug.Log($"SummonResultMenu: Found CharacterViewUI component, calling SetCharacter");
+                card.SetCharacter(character);
+                // Disable button interaction for summon result display
+                card.DisableButton();
                 _cards.Add(card);
             }
-        }
-
-        private void OnCharacterSelected(CharacterData character)
-        {
-            if (character == null) return;
-            
-            // Open character detail menu
-            if (UIController.IsInitialized)
+            else
             {
-                UIController.Instance.Open("CharacterMenu");
-                
-                // Find the opened menu and set character
-                StartCoroutine(SetCharacterAfterOpen(character));
+                Debug.LogError($"SummonResultMenu: CharacterViewUI component not found on prefab {characterCardPrefab.name}");
+                Destroy(cardObj);
             }
-        }
-
-        private IEnumerator SetCharacterAfterOpen(CharacterData character)
-        {
-            yield return MenuUtils.OpenMenuAndSetData<CharacterMenu>("CharacterMenu", menu =>
-            {
-                menu.SetCharacter(character);
-            });
         }
 
         private void ClearCards()

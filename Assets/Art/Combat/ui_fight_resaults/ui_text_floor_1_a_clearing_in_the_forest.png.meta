@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: b831d04f1424dc34bb9e7eb7929db23b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4138709350376983530
+    second: ui_text_floor_1_a_clearing_in_the_forest_0
+  - first:
+      213: 3606441712949184732
+    second: ui_text_floor_1_a_clearing_in_the_forest_1
+  - first:
+      213: -5639630227723253526
+    second: ui_text_floor_1_a_clearing_in_the_forest_2
+  - first:
+      213: -7427520906719781409
+    second: ui_text_floor_1_a_clearing_in_the_forest_3
+  - first:
+      213: -4955409694036895897
+    second: ui_text_floor_1_a_clearing_in_the_forest_4
+  - first:
+      213: -2268112175877016965
+    second: ui_text_floor_1_a_clearing_in_the_forest_5
+  - first:
+      213: 3269490507320729073
+    second: ui_text_floor_1_a_clearing_in_the_forest_6
+  - first:
+      213: 1167301143559585796
+    second: ui_text_floor_1_a_clearing_in_the_forest_7
+  - first:
+      213: 4726493429344139826
+    second: ui_text_floor_1_a_clearing_in_the_forest_8
+  - first:
+      213: -3964685650493049960
+    second: ui_text_floor_1_a_clearing_in_the_forest_9
+  - first:
+      213: 3788604030694345922
+    second: ui_text_floor_1_a_clearing_in_the_forest_10
+  - first:
+      213: -1824882448636458103
+    second: ui_text_floor_1_a_clearing_in_the_forest_11
+  - first:
+      213: 2497105711908974089
+    second: ui_text_floor_1_a_clearing_in_the_forest_12
+  - first:
+      213: -8624836549692980944
+    second: ui_text_floor_1_a_clearing_in_the_forest_13
+  - first:
+      213: 1817465977548671492
+    second: ui_text_floor_1_a_clearing_in_the_forest_14
+  - first:
+      213: 4507455227274494313
+    second: ui_text_floor_1_a_clearing_in_the_forest_15
+  - first:
+      213: -5514368291129197372
+    second: ui_text_floor_1_a_clearing_in_the_forest_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_0
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 111
+        width: 244
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebcec1f936af6930800000000000000
+      internalID: 4138709350376983530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 115
+        width: 220
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8cc7351a7ac0230800000000000000
+      internalID: 3606441712949184732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_2
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 111
+        width: 231
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8000c10320cb1b0800000000000000
+      internalID: -5639630227723253526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_3
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 115
+        width: 380
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd1e2986152ce890800000000000000
+      internalID: -7427520906719781409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_4
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 115
+        width: 152
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767576e5329da3bb0800000000000000
+      internalID: -4955409694036895897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_5
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 236
+        width: 180
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72bc163efb0680e0800000000000000
+      internalID: -2268112175877016965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_6
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 115
+        width: 266
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd1d5d3b409f5d20800000000000000
+      internalID: 3269490507320729073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_7
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 111
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400c6c79436133010800000000000000
+      internalID: 1167301143559585796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_8
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 111
+        width: 253
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a76416bb0e79140800000000000000
+      internalID: 4726493429344139826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_9
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 115
+        width: 235
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f54c186b9af8c0800000000000000
+      internalID: -3964685650493049960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_10
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc46240b43d39430800000000000000
+      internalID: 3788604030694345922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_11
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 111
+        width: 232
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bcd24e417bca6e0800000000000000
+      internalID: -1824882448636458103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_12
+      rect:
+        serializedVersion: 2
+        x: 4226
+        y: 115
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eeeec2a6087a220800000000000000
+      internalID: 2497105711908974089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_13
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 111
+        width: 253
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318eb9badc6e4880800000000000000
+      internalID: -8624836549692980944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_14
+      rect:
+        serializedVersion: 2
+        x: 4913
+        y: 111
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a852f5dafe83910800000000000000
+      internalID: 1817465977548671492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_15
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 111
+        width: 210
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9618caec5a2bd8e30800000000000000
+      internalID: 4507455227274494313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_text_floor_1_a_clearing_in_the_forest_16
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 38
+        width: 261
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccf09e61470973b0800000000000000
+      internalID: -5514368291129197372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_text_floor_1_a_clearing_in_the_forest_0: 4138709350376983530
+      ui_text_floor_1_a_clearing_in_the_forest_1: 3606441712949184732
+      ui_text_floor_1_a_clearing_in_the_forest_10: 3788604030694345922
+      ui_text_floor_1_a_clearing_in_the_forest_11: -1824882448636458103
+      ui_text_floor_1_a_clearing_in_the_forest_12: 2497105711908974089
+      ui_text_floor_1_a_clearing_in_the_forest_13: -8624836549692980944
+      ui_text_floor_1_a_clearing_in_the_forest_14: 1817465977548671492
+      ui_text_floor_1_a_clearing_in_the_forest_15: 4507455227274494313
+      ui_text_floor_1_a_clearing_in_the_forest_16: -5514368291129197372
+      ui_text_floor_1_a_clearing_in_the_forest_2: -5639630227723253526
+      ui_text_floor_1_a_clearing_in_the_forest_3: -7427520906719781409
+      ui_text_floor_1_a_clearing_in_the_forest_4: -4955409694036895897
+      ui_text_floor_1_a_clearing_in_the_forest_5: -2268112175877016965
+      ui_text_floor_1_a_clearing_in_the_forest_6: 3269490507320729073
+      ui_text_floor_1_a_clearing_in_the_forest_7: 1167301143559585796
+      ui_text_floor_1_a_clearing_in_the_forest_8: 4726493429344139826
+      ui_text_floor_1_a_clearing_in_the_forest_9: -3964685650493049960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

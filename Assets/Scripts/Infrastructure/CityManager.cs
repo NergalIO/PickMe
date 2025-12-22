@@ -31,6 +31,7 @@ namespace PickMe.Infrastructure
             // Ensure required starting buildings exist
             // If building already exists in Inspector, preserve its status and other properties
             // Only set defaults if building doesn't exist
+            // NOTE: Save data will be loaded later in GameManager, which will override these defaults
             EnsureBuildingPreservingInspector(BuildingType.House, BuildingStatus.Built, storageCapacity: 50);
             EnsureBuildingPreservingInspector(BuildingType.SummonHall, BuildingStatus.Built);
             EnsureBuildingPreservingInspector(BuildingType.Tower, BuildingStatus.Built);
@@ -44,7 +45,9 @@ namespace PickMe.Infrastructure
                 Debug.Log($"CityManager: {b.type} = {b.status}, storageCapacity = {b.storageCapacity}, buildCost = {b.buildCost}");
             }
 
-            SyncHouseCapacity();
+            // Don't sync house capacity here - it will be synced after loading save data
+            // If no save exists, it will be synced when buildings are loaded or when house is built
+            // SyncHouseCapacity(); // Removed to prevent saving before load
         }
 
         /// <summary>
@@ -148,7 +151,88 @@ namespace PickMe.Infrastructure
             {
                 EventController.Instance.Publish(new BuildingBuilt(type));
             }
+            
+            AutoSave();
             return true;
+        }
+
+        /// <summary>
+        /// Loads buildings from save data (used for loading save file).
+        /// </summary>
+        public void LoadBuildings(List<BuildingData> savedBuildings)
+        {
+            if (savedBuildings == null || savedBuildings.Count == 0)
+            {
+                Debug.Log("CityManager: No buildings in save data, using defaults");
+                return;
+            }
+
+            // Update existing buildings with saved data
+            foreach (var savedBuilding in savedBuildings)
+            {
+                var existing = buildings.FirstOrDefault(b => b.type == savedBuilding.type);
+                if (existing != null)
+                {
+                    existing.status = savedBuilding.status;
+                    existing.storageCapacity = savedBuilding.storageCapacity;
+                    existing.buildCost = savedBuilding.buildCost;
+                    Debug.Log($"CityManager: Loaded building {savedBuilding.type} with status {savedBuilding.status}");
+                }
+                else
+                {
+                    // Add new building if it doesn't exist
+                    buildings.Add(savedBuilding);
+                    Debug.Log($"CityManager: Added building {savedBuilding.type} from save data");
+                }
+            }
+
+            // Sync house capacity after loading (but don't save during load)
+            SyncHouseCapacityWithoutSave();
+            
+            // Update all building visuals after loading
+            RefreshAllBuildingVisuals();
+        }
+
+        /// <summary>
+        /// Refreshes all building visuals in the scene after loading save data.
+        /// </summary>
+        private void RefreshAllBuildingVisuals()
+        {
+            // Find all BuildingVisualController components in the scene
+            var visualControllers = UnityEngine.Object.FindObjectsOfType<PickMe.City.BuildingVisualController>();
+            foreach (var controller in visualControllers)
+            {
+                if (controller != null)
+                {
+                    controller.UpdateVisuals();
+                }
+            }
+            Debug.Log($"CityManager: Refreshed {visualControllers.Length} building visual controllers after load");
+        }
+
+        private void SyncHouseCapacityWithoutSave()
+        {
+            var house = buildings.FirstOrDefault(b => b.type == BuildingType.House);
+            if (house != null && house.storageCapacity > 0)
+            {
+                // Directly set storage capacity without triggering save
+                CharacterManager.Instance.SetStorageCapacityDirect(house.storageCapacity);
+                Debug.Log($"CityManager: Synced house capacity to {house.storageCapacity} (without save)");
+            }
+        }
+
+        /// <summary>
+        /// Syncs house capacity after load (used when no save data exists).
+        /// </summary>
+        public void SyncHouseCapacityAfterLoad()
+        {
+            var house = buildings.FirstOrDefault(b => b.type == BuildingType.House);
+            if (house != null && house.storageCapacity > 0)
+            {
+                // Use direct method to avoid triggering save during initial load
+                CharacterManager.Instance.SetStorageCapacityDirect(house.storageCapacity);
+                Debug.Log($"CityManager: Synced house capacity to {house.storageCapacity} after load (no save data)");
+            }
         }
 
         private void SyncHouseCapacity()
@@ -157,6 +241,14 @@ namespace PickMe.Infrastructure
             if (house != null && house.storageCapacity > 0)
             {
                 CharacterManager.Instance.SetStorageCapacity(house.storageCapacity);
+            }
+        }
+
+        private void AutoSave()
+        {
+            if (SaveSystem.IsInitialized && !SaveSystem.Instance.IsLoading)
+            {
+                SaveSystem.Instance.SaveGame();
             }
         }
     }

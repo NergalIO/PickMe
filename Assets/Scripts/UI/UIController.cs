@@ -156,6 +156,15 @@ namespace PickMe.UI
             return _registry.Keys;
         }
 
+        /// <summary>
+        /// Re-registers all menus in the current scene. Useful after loading a new scene.
+        /// </summary>
+        public void RefreshMenus()
+        {
+            Debug.Log("UIController: Refreshing menu registry...");
+            RegisterMenus();
+        }
+
         #endregion
 
         #region Private Methods

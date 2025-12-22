@@ -31,6 +31,23 @@ namespace PickMe.Infrastructure
         public void UnlockNext(int completedLevel)
         {
             _highestUnlocked = Mathf.Max(_highestUnlocked, completedLevel + 1);
+            AutoSave();
+        }
+
+        /// <summary>
+        /// Sets the highest unlocked floor (used for loading save data).
+        /// </summary>
+        public void SetHighestUnlocked(int floor)
+        {
+            _highestUnlocked = Mathf.Max(1, floor);
+        }
+
+        private void AutoSave()
+        {
+            if (SaveSystem.IsInitialized && !SaveSystem.Instance.IsLoading)
+            {
+                SaveSystem.Instance.SaveGame();
+            }
         }
 
         private void LoadFromScriptableObjects()

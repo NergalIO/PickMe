@@ -57,21 +57,27 @@ namespace PickMe.UI
         {
             if (floor == null) return;
             
-            // Start combat
-            if (CombatManager.IsInitialized)
+            // Load combat scene
+            if (SceneLoader.IsInitialized)
             {
-                CombatManager.Instance.StartCombat(floor.level);
-                
-                // Close menu and enter combat state
+                // Close menu before loading scene
                 if (UIController.IsInitialized)
                 {
                     UIController.Instance.CloseCurrent();
                 }
                 
+                // Enter combat state
                 if (GameManager.IsInitialized)
                 {
                     GameManager.Instance.EnterCombat();
                 }
+                
+                // Load the combat scene
+                SceneLoader.Instance.LoadCombatScene(floor);
+            }
+            else
+            {
+                Debug.LogWarning("TowerMenu: SceneLoader not initialized, cannot load combat scene");
             }
         }
 

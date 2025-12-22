@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PickMe.Gameplay;
+using UnityEngine;
 
 namespace PickMe.Infrastructure
 {
@@ -34,10 +35,16 @@ namespace PickMe.Infrastructure
             }
 
             List<CharacterData> newChars = CharacterManager.Instance.GenerateCharacters(CharactersPerSummon);
+            Debug.Log($"SummonManager: Generated {newChars?.Count ?? 0} characters");
             CharacterManager.Instance.AddToCollection(newChars);
             if (EventController.IsInitialized)
             {
+                Debug.Log($"SummonManager: Publishing SummonCompleted event with {newChars?.Count ?? 0} characters");
                 EventController.Instance.Publish(new SummonCompleted(newChars));
+            }
+            else
+            {
+                Debug.LogWarning("SummonManager: EventController not initialized, cannot publish SummonCompleted event");
             }
             return true;
         }

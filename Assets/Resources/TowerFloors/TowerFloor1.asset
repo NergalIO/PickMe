@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: TowerFloor1
   m_EditorClassIdentifier: Assembly-CSharp::PickMe.Gameplay.TowerFloorAsset
   level: 1
-  scenePath: 
-  sceneAsset: {fileID: 0}
+  scenePath: Assets/Scenes/Floor 1.unity
+  sceneAsset: {fileID: 102900000, guid: 9ce992e21d6025f41ba9da5ac2ea0c19, type: 3}
   enemies:
   - enemyId: goblin
     count: 3

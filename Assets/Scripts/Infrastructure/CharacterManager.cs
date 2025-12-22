@@ -49,6 +49,15 @@ namespace PickMe.Infrastructure
         public void SetStorageCapacity(int capacity)
         {
             _storageCapacity = Mathf.Max(0, capacity);
+            AutoSave();
+        }
+
+        /// <summary>
+        /// Sets storage capacity without triggering save (used during load).
+        /// </summary>
+        public void SetStorageCapacityDirect(int capacity)
+        {
+            _storageCapacity = Mathf.Max(0, capacity);
         }
 
         public List<CharacterData> GenerateCharacters(int count)
@@ -63,7 +72,43 @@ namespace PickMe.Infrastructure
 
         public void AddToCollection(IEnumerable<CharacterData> characters)
         {
+            int countBefore = _collection.Count;
             _collection.AddRange(characters);
+            int countAfter = _collection.Count;
+            Debug.Log($"CharacterManager: Added {countAfter - countBefore} characters to collection. Total: {countAfter}");
+            AutoSave();
+        }
+
+        /// <summary>
+        /// Loads collection from save data (used for loading save file).
+        /// </summary>
+        public void LoadCollection(List<CharacterData> characters, int storageCapacity)
+        {
+            _collection.Clear();
+            if (characters != null)
+            {
+                _collection.AddRange(characters);
+                Debug.Log($"CharacterManager: Loaded {characters.Count} characters from save");
+            }
+            else
+            {
+                Debug.Log("CharacterManager: No characters in save data");
+            }
+            _storageCapacity = storageCapacity > 0 ? storageCapacity : baseStorageCapacity;
+            Debug.Log($"CharacterManager: Storage capacity set to {_storageCapacity}");
+        }
+
+        private void AutoSave()
+        {
+            if (SaveSystem.IsInitialized && !SaveSystem.Instance.IsLoading)
+            {
+                Debug.Log("CharacterManager: Triggering auto-save");
+                SaveSystem.Instance.SaveGame();
+            }
+            else
+            {
+                Debug.LogWarning($"CharacterManager: Cannot auto-save. SaveSystem initialized: {SaveSystem.IsInitialized}, IsLoading: {SaveSystem.Instance?.IsLoading ?? false}");
+            }
         }
 
         public void SetTeam(IEnumerable<CharacterData> teamMembers)
@@ -75,7 +120,11 @@ namespace PickMe.Infrastructure
         public void MarkDead(string characterId)
         {
             var ch = _collection.FirstOrDefault(c => c.id == characterId);
-            if (ch != null) ch.is_dead = true;
+            if (ch != null)
+            {
+                ch.is_dead = true;
+                AutoSave();
+            }
         }
 
         private CharacterData CreateRandomCharacter()

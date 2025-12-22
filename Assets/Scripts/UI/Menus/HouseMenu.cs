@@ -18,7 +18,7 @@ namespace PickMe.UI
         [SerializeField] private GameObject _characterCardPrefab;
         [SerializeField] private ScrollRect _scrollRect;
         
-        private readonly List<CharacterCardUI> _cards = new();
+        private readonly List<CharacterViewUI> _cards = new();
         private int _lastCollectionCount = -1;
         private bool _isRefreshing;
 
@@ -131,10 +131,10 @@ namespace PickMe.UI
             if (_characterCardPrefab == null || _characterListContainer == null) return;
             
             var cardObj = Instantiate(_characterCardPrefab, _characterListContainer);
-            var card = cardObj.GetComponent<CharacterCardUI>();
+            var card = cardObj.GetComponent<CharacterViewUI>();
             if (card != null)
             {
-                card.Setup(character, OnCharacterSelected);
+                card.SetCharacter(character);
                 _cards.Add(card);
             }
         }

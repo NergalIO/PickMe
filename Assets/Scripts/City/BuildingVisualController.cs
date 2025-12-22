@@ -79,14 +79,22 @@ namespace PickMe.City
             }
         }
 
-        private void UpdateVisuals()
+        /// <summary>
+        /// Updates visuals based on current building status from CityManager.
+        /// Can be called externally (e.g., after loading save data).
+        /// </summary>
+        public void UpdateVisuals()
         {
             if (!CityManager.IsInitialized) return;
 
             var buildingData = CityManager.Instance.Buildings
                 .FirstOrDefault(b => b.type == _buildingType);
             
-            if (buildingData == null) return;
+            if (buildingData == null)
+            {
+                Debug.LogWarning($"BuildingVisualController: No building data found for {_buildingType}");
+                return;
+            }
 
             bool isBuilt = buildingData.status == BuildingStatus.Built;
 
@@ -100,6 +108,8 @@ namespace PickMe.City
             {
                 _builtVisual.SetActive(isBuilt);
             }
+            
+            Debug.Log($"BuildingVisualController: Updated visuals for {_buildingType}, isBuilt: {isBuilt}");
         }
     }
 }

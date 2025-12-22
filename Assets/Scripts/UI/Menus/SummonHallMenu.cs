@@ -149,21 +149,28 @@ namespace PickMe.UI
         {
             UpdateButtons();
             
+            Debug.Log($"SummonHallMenu: OnSummonCompleted called with {evt.Characters?.Count ?? 0} characters");
+            
             // Show summon result menu with summoned characters
             if (UIController.IsInitialized && evt.Characters != null && evt.Characters.Count > 0)
             {
-                UIController.Instance.Open("SummonResultMenu");
-                
-                // Pass summoned characters to the result menu
-                StartCoroutine(SetSummonResultAfterOpen(evt.Characters));
+                // Use UIController to start coroutine since it's always active
+                // This ensures the coroutine runs even if SummonHallMenu becomes inactive
+                UIController.Instance.StartCoroutine(SetSummonResultAfterOpen(evt.Characters));
+            }
+            else
+            {
+                Debug.LogWarning($"SummonHallMenu: Cannot show result menu. UIController initialized: {UIController.IsInitialized}, Characters: {evt.Characters?.Count ?? 0}");
             }
         }
 
         private IEnumerator SetSummonResultAfterOpen(IReadOnlyList<CharacterData> characters)
         {
+            Debug.Log($"SummonHallMenu: SetSummonResultAfterOpen called with {characters?.Count ?? 0} characters");
             yield return MenuUtils.OpenMenuAndSetData<SummonResultMenu>("SummonResultMenu", menu =>
             {
                 var characterList = new List<CharacterData>(characters);
+                Debug.Log($"SummonHallMenu: Setting {characterList.Count} characters to SummonResultMenu");
                 menu.SetSummonedCharacters(characterList);
             });
         }
