@@ -1,4 +1,4 @@
-namespace PickMe.Gameplay
+namespace PickMe.Gameplay.Data
 {
     public enum CharacterClassTag
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace PickMe.Gameplay
+namespace PickMe.Gameplay.Data
 {
     [Serializable]
     public class BuildingData

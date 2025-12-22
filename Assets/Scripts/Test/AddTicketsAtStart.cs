@@ -1,6 +1,6 @@
 using UnityEngine;
-using PickMe.Infrastructure;
-using PickMe.Gameplay;
+using PickMe.Gameplay.Systems.ResourceSystem;
+using PickMe.Gameplay.Data;
 
 public class AddTicketsAtStart : MonoBehaviour
 {

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace PickMe.Gameplay
+namespace PickMe.Gameplay.Data
 {
     [Serializable]
     public struct CombatStats

@@ -1,6 +1,6 @@
 using System.Collections;
-using PickMe.Infrastructure;
-using PickMe.UI;
+using PickMe.Core.Managers;
+using PickMe.UI.Menus.Base;
 using UnityEngine;
 
 namespace PickMe.Utils

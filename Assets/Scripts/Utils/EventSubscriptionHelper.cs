@@ -1,4 +1,4 @@
-using PickMe.Infrastructure;
+using PickMe.Core.Services;
 
 namespace PickMe.Utils
 {

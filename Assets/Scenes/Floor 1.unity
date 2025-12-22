@@ -1914,7 +1914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1162405919
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2306,7 +2306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.4100037, y: -199.719}
+  m_AnchoredPosition: {x: -3.4100037, y: -199.71902}
   m_SizeDelta: {x: -103.271, y: -674.842}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304937698
@@ -2881,12 +2881,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a018feba619e764ea6612dfa1ca6d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickMe.Camera.CameraController
-  dragSensitivity: 0.01
+  dragSensitivity: 0.05
   useBounds: 1
   minX: -10
   maxX: 10
   boundsSprite: {fileID: 0}
-  boundsSpriteName: Battlefield
+  boundsSpriteName: Background
 --- !u!1 &1575726954
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,7 +3899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.531, y: -4.34}
+  m_AnchoredPosition: {x: -14.530998, y: -4.34}
   m_SizeDelta: {x: 871.443, y: 806.278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1984079738

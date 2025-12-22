@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7698fb5c87a8a04aa5a6e6147e6d84c, type: 3}
+  m_Name: TowerFloor
+  m_EditorClassIdentifier: Assembly-CSharp::PickMe.Gameplay.Assets.TowerFloorAsset
+  level: 1
+  scenePath: Assets/Scenes/Floor 1.unity
+  sceneAsset: {fileID: 102900000, guid: 9ce992e21d6025f41ba9da5ac2ea0c19, type: 3}
+  enemies:
+  - enemyId: goblin
+    count: 1
+  rewards:
+  - resourceType: 0
+    amount: 5
+  - resourceType: 1
+    amount: 3
