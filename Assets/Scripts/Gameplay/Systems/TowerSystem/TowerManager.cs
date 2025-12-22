@@ -23,8 +23,12 @@ namespace PickMe.Gameplay.Systems.TowerSystem
         protected override System.Collections.IEnumerator OnInitialized()
         {
             yield return EventController.WaitUntilInitialized();
-            LoadFromScriptableObjects();
-            LoadFromResourcesJsonFallback();
+            LoadFromResourcesJson();
+            // Fallback to ScriptableObjects if JSON not found
+            if (floors == null || floors.Count == 0)
+            {
+                LoadFromScriptableObjects();
+            }
         }
 
         public TowerFloorData GetFloor(int level)
@@ -54,41 +58,46 @@ namespace PickMe.Gameplay.Systems.TowerSystem
             }
         }
 
-        private void LoadFromScriptableObjects()
+        private void LoadFromResourcesJson()
         {
-            if (floors != null && floors.Count > 0) return;
-
-            var assets = Resources.LoadAll<PickMe.Gameplay.Assets.TowerFloorAsset>("TowerFloors");
-            if (assets != null && assets.Length > 0)
-            {
-                floors = assets
-                    .Select(a => a.ToData())
-                    .OrderBy(f => f.level)
-                    .ToList();
-                return;
-            }
-        }
-
-        private void LoadFromResourcesJsonFallback()
-        {
-            // If already configured in inspector, keep it.
-            if (floors != null && floors.Count > 0) return;
-
             var asset = Resources.Load<TextAsset>("Config/tower_floors");
             if (asset == null)
             {
-                Debug.LogWarning("TowerManager: no floors found. Provide ScriptableObjects in Resources/TowerFloors or Config/tower_floors.json");
+                Debug.LogWarning("TowerManager: Config/tower_floors.json not found, will try ScriptableObjects fallback");
                 return;
             }
 
             var wrapper = JsonUtility.FromJson<TowerFloorsWrapper>(asset.text);
             if (wrapper != null && wrapper.floors != null && wrapper.floors.Count > 0)
             {
-                floors = wrapper.floors;
+                // Filter out unavailable floors (available == false)
+                floors = wrapper.floors
+                    .Where(f => f.available)
+                    .OrderBy(f => f.level)
+                    .ToList();
+                Debug.Log($"TowerManager: Loaded {floors.Count} available floors from JSON (filtered out unavailable floors)");
             }
             else
             {
                 Debug.LogWarning("TowerManager: tower_floors.json parsed but empty");
+            }
+        }
+
+        private void LoadFromScriptableObjects()
+        {
+            var assets = Resources.LoadAll<PickMe.Gameplay.Assets.TowerFloorAsset>("TowerFloors");
+            if (assets != null && assets.Length > 0)
+            {
+                floors = assets
+                    .Select(a => a.ToData())
+                    .Where(f => f.available) // Also filter ScriptableObjects for consistency
+                    .OrderBy(f => f.level)
+                    .ToList();
+                Debug.Log($"TowerManager: Loaded {floors.Count} floors from ScriptableObjects");
+            }
+            else
+            {
+                Debug.LogWarning("TowerManager: No floors found. Provide ScriptableObjects in Resources/TowerFloors or Config/tower_floors.json");
             }
         }
 

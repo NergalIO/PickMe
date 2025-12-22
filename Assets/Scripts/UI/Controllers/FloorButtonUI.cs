@@ -45,7 +45,13 @@ namespace PickMe.UI.Controllers
         {
             if (_floor == null) return;
             
-            if (levelText != null) levelText.text = $"Этаж №{_floor.level}";
+            // Use name from JSON if available, otherwise fallback to level
+            if (levelText != null)
+            {
+                levelText.text = !string.IsNullOrEmpty(_floor.name) 
+                    ? _floor.name 
+                    : $"Этаж №{_floor.level}";
+            }
             
             int totalEnemies = 0;
             if (_floor.enemies != null)

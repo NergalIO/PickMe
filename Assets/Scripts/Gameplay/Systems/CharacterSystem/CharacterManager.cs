@@ -24,15 +24,7 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
             "Sam","Quinn","Morgan","Cameron","Sky"
         };
 
-        [Header("Class Templates")]
-        [SerializeField] private List<ClassTemplate> classTemplates = new()
-        {
-            new ClassTemplate(CharacterClassTag.Warrior, 120, 20, 1.5f, 1.2f, 3.5f, 0.3f),
-            new ClassTemplate(CharacterClassTag.Scout,   80,  18, 2.5f, 1.6f, 4.2f, 0.25f),
-            new ClassTemplate(CharacterClassTag.Tank,   160, 15, 1.2f, 1.0f, 3.0f, 0.2f),
-            new ClassTemplate(CharacterClassTag.Mage,    90,  25, 2.8f, 1.4f, 3.3f, 0.35f),
-        };
-
+        private readonly List<ClassTemplate> _classTemplates = new();
         private readonly List<CharacterData> _collection = new();
         private readonly List<CharacterData> _team = new();
         private int _storageCapacity;
@@ -45,6 +37,7 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
         {
             yield return EventController.WaitUntilInitialized();
             _storageCapacity = baseStorageCapacity;
+            LoadClassTemplates();
         }
 
         public bool HasFreeSlots(int incomingCount) => _collection.Count + incomingCount <= _storageCapacity;
@@ -68,7 +61,11 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
             var result = new List<CharacterData>(count);
             for (int i = 0; i < count; i++)
             {
-                result.Add(CreateRandomCharacter());
+                var character = CreateRandomCharacter();
+                if (character != null)
+                {
+                    result.Add(character);
+                }
             }
             return result;
         }
@@ -133,6 +130,11 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
         private CharacterData CreateRandomCharacter()
         {
             var template = GetRandomTemplate();
+            if (template == null)
+            {
+                Debug.LogError("CharacterManager: Cannot create character - no template available");
+                return null;
+            }
             var data = new CharacterData
             {
                 id = Guid.NewGuid().ToString(),
@@ -158,10 +160,51 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
             return data;
         }
 
+        private void LoadClassTemplates()
+        {
+            var asset = Resources.Load<TextAsset>("Config/classes");
+            if (asset == null)
+            {
+                Debug.LogWarning("CharacterManager: Config/classes.json not found, using default templates");
+                LoadDefaultTemplates();
+                return;
+            }
+
+            var wrapper = JsonUtility.FromJson<ClassConfigWrapper>(asset.text);
+            if (wrapper != null && wrapper.classes != null && wrapper.classes.Count > 0)
+            {
+                _classTemplates.Clear();
+                _classTemplates.AddRange(wrapper.classes);
+                Debug.Log($"CharacterManager: Loaded {_classTemplates.Count} class templates from config");
+            }
+            else
+            {
+                Debug.LogWarning("CharacterManager: Failed to parse class config, using default templates");
+                LoadDefaultTemplates();
+            }
+        }
+
+        private void LoadDefaultTemplates()
+        {
+            _classTemplates.Clear();
+            _classTemplates.AddRange(new List<ClassTemplate>
+            {
+                new ClassTemplate(CharacterClassTag.Warrior, 120, 20, 1.5f, 1.2f, 3.5f, 0.3f),
+                new ClassTemplate(CharacterClassTag.Scout,   80,  18, 2.5f, 1.6f, 4.2f, 0.25f),
+                new ClassTemplate(CharacterClassTag.Tank,   160, 15, 1.2f, 1.0f, 3.0f, 0.2f),
+                new ClassTemplate(CharacterClassTag.Mage,    90,  25, 2.8f, 1.4f, 3.3f, 0.35f),
+            });
+        }
+
         private ClassTemplate GetRandomTemplate()
         {
-            var idx = UnityEngine.Random.Range(0, classTemplates.Count);
-            return classTemplates[idx];
+            if (_classTemplates.Count == 0)
+            {
+                Debug.LogError("CharacterManager: No class templates available!");
+                return null;
+            }
+            var idx = UnityEngine.Random.Range(0, _classTemplates.Count);
+            return _classTemplates[idx];
         }
 
         private string GetRandomName()
@@ -169,6 +212,12 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
             if (names == null || names.Count == 0) return "Hero";
             var idx = UnityEngine.Random.Range(0, names.Count);
             return names[idx];
+        }
+
+        [System.Serializable]
+        private class ClassConfigWrapper
+        {
+            public List<ClassTemplate> classes;
         }
     }
 
@@ -182,6 +231,9 @@ namespace PickMe.Gameplay.Systems.CharacterSystem
         public float atkSpeed;
         public float moveSpeed;
         public float abilityChance;
+
+        // Default constructor for JSON deserialization
+        public ClassTemplate() { }
 
         public ClassTemplate(CharacterClassTag classTag, float baseHp, float baseAtk, float atkRange, float atkSpeed, float moveSpeed, float abilityChance)
         {

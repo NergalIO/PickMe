@@ -1,0 +1,41 @@
+{
+  "classes": [
+    {
+      "classTag": "Warrior",
+      "baseHp": 120.0,
+      "baseAtk": 20.0,
+      "atkRange": 1.5,
+      "atkSpeed": 1.2,
+      "moveSpeed": 3.5,
+      "abilityChance": 0.3
+    },
+    {
+      "classTag": "Scout",
+      "baseHp": 80.0,
+      "baseAtk": 18.0,
+      "atkRange": 2.5,
+      "atkSpeed": 1.6,
+      "moveSpeed": 4.2,
+      "abilityChance": 0.25
+    },
+    {
+      "classTag": "Tank",
+      "baseHp": 160.0,
+      "baseAtk": 15.0,
+      "atkRange": 1.2,
+      "atkSpeed": 1.0,
+      "moveSpeed": 3.0,
+      "abilityChance": 0.2
+    },
+    {
+      "classTag": "Mage",
+      "baseHp": 90.0,
+      "baseAtk": 25.0,
+      "atkRange": 2.8,
+      "atkSpeed": 1.4,
+      "moveSpeed": 3.3,
+      "abilityChance": 0.35
+    }
+  ]
+}
+

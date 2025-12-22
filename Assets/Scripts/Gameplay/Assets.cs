@@ -42,7 +42,9 @@ namespace PickMe.Gameplay.Assets
             return new TowerFloorData
             {
                 level = level,
+                name = $"Floor {level}",
                 scenePath = scenePath,
+                available = true, // ScriptableObjects are always available
                 enemies = CloneEnemies(enemies),
                 rewards = CloneRewards(rewards)
             };

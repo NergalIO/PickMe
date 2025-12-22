@@ -2,23 +2,29 @@
   "floors": [
     {
       "level": 1,
+      "name": "Floor 1",
       "enemies": [
         { "enemyId": "goblin", "count": 3 }
       ],
       "rewards": [
         { "resourceType": "Tickets", "amount": 1 },
         { "resourceType": "Construction", "amount": 5 }
-      ]
+      ],
+      "scenePath": "Assets/Scenes/Floor 1.unity",
+      "available": true
     },
     {
       "level": 2,
+      "name": "Floor 2",
       "enemies": [
         { "enemyId": "goblin", "count": 4 }
       ],
       "rewards": [
         { "resourceType": "Tickets", "amount": 1 },
         { "resourceType": "Construction", "amount": 8 }
-      ]
+      ],
+      "scenePath": "Assets/Scenes/Floor 2.unity",
+      "available": false
     }
   ]
 }

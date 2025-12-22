@@ -21,7 +21,9 @@ namespace PickMe.Gameplay.Data
     public class TowerFloorData
     {
         public int level;
+        public string name;
         public string scenePath;
+        public bool available = true;
         public List<EnemySpawn> enemies = new();
         public List<ResourceReward> rewards = new();
     }
